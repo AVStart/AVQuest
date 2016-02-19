@@ -1,0 +1,306 @@
+ <!-- Portfolio -->
+    <section id="Portfolio" class="content">
+        <!-- Container -->
+        <div class="container portfolio_title">
+            <!-- Title -->
+            <div class="section-title">
+                <h2>
+                    Projects</h2>
+                <h6>
+                    Come and see how our creative team are delivering above and beyond our clients expectations...</h6>
+            </div>
+            <!--/Title -->
+        </div>
+        <!-- Container -->
+        <div class="portfolio-top">
+        </div>
+        <!-- Portfolio Filters -->
+        <div class="portfolio">
+            <div id="filters" class="sixteen columns">
+                <ul class="clearfix">
+                    <li><a id="all" href="#" data-filter="*" class="active">
+                        <h5>
+                            All</h5>
+                    </a></li>
+                    <li><a class="" href="#" data-filter=".web">
+                        <h5>
+                            Web Site Devlopement</h5>
+                    </a></li>
+                    <li><a class="" href="#" data-filter=".design">
+                        <h5>
+                            Business Solutions</h5>
+                    </a></li>
+                    <li><a class="" href="#" data-filter=".android">
+                        <h5>
+                            Android</h5>
+                    </a></li>
+                    <li><a class="" href="#" data-filter=".appleIOS">
+                        <h5>
+                            Apple IOS</h5>
+                    </a></li>
+                    <li><a class="" href="#" data-filter=".web">
+                        <h5>
+                            Web Hosting</h5>
+                    </a></li>
+                </ul>
+            </div>
+            <!--/Portfolio Filters -->
+            <!-- Portfolio Wrapper -->
+            <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden;
+                height: 480px;" id="portfolio_wrapper">
+                <!-- Portfolio Item -->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic1.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic1.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item -->
+                <!-- Portfolio Item-->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic2.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic2.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item -->
+                <!-- Portfolio Item -->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic3.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic3.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item-->
+                <!-- Portfolio Item-->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic4.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic4.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!-- Portfolio Item -->
+                <!-- Portfolio Item -->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic5.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic5.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item -->
+                <!-- Portfolio Item -->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic6.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic6.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item -->
+                <!-- Portfolio Item  -->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic7.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic7.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item -->
+                <!-- Portfolio Item -->
+                <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1);
+                    width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item effect-oscar">
+                    <div class="portfolio_img">
+                        <img src="img/portfolio_pic8.jpg" alt="Portfolio 1">
+                    </div>
+                    <figcaption>
+                        <div>
+                            <a href="img/portfolio_pic8.jpg" class="fancybox">
+                                <h2>
+                                    Warm <span>Oscar</span></h2>
+                                <p>
+                                    Oscar is a decent man. He used to clean porches with pleasure.</p>
+                            </a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <!--/Portfolio Item -->
+            </div>
+            <!--/Portfolio Wrapper -->
+        </div>
+        <!--/Portfolio Filters -->
+        <div class="portfolio_btm">
+        </div>
+        <div id="project_container">
+            <div class="clear">
+            </div>
+            <div id="project_data">
+            </div>
+        </div>
+    </section>
+    <!--/Portfolio -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Process-->
+    <section id="process" class="page_section">
+        <div class="advantage-sec">
+            <div class="container">
+                <h4>
+                    What Do We Bring To The Table?</h4>
+                <div class="advantage-block">
+                    <div class="col-md-1">
+                        <div class="num-square">
+                            1</div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 col-xs-12">
+                        <div class="white-bg">
+                            <h5>
+                                Understanding</h5>
+                            <p>
+                                Insight into your business gives us the power to sculpt your project. We ensure
+                                that we take time to see your vision in detail.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage-block">
+                    <div class="col-md-1">
+                        <div class="num-square">
+                            2</div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 col-xs-12">
+                        <div class="white-bg">
+                            <h5>
+                                Strategy</h5>
+                            <p>
+                                We achieve results using our Proven Strategy – We keep you well integrated during
+                                the entire process from the initial planning stages right through to project completion!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage-block">
+                    <div class="col-md-1">
+                        <div class="num-square">
+                            3</div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 col-xs-12">
+                        <div class="white-bg">
+                            <h5>
+                                Design</h5>
+                            <p>
+                                Our Creative Team understand what it takes to bring exceptional flair and an individual
+                                look for your brand.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage-block">
+                    <div class="col-md-1">
+                        <div class="num-square">
+                            4</div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 col-xs-12">
+                        <div class="white-bg">
+                            <h5>
+                                Innovation</h5>
+                            <p>
+                                By continually evaluating our current knowledge and expertise we ensure through
+                                training and research we maintain our leading position.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantage-block">
+                    <div class="col-md-1">
+                        <div class="num-square">
+                            5</div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 col-xs-12">
+                        <div class="white-bg">
+                            <h5>
+                                Trusted</h5>
+                            <p>
+                                Through rigid Project Management and Support, Our clients trust in us to provide
+                                a World Class Service, time and again.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Process-->
