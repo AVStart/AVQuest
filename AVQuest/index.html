@@ -15,39 +15,10 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/html5element.js"></script>
 <![endif]-->
-    <style type="text/css">
-        #background_cycler
-        {
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
-        #background_cycler img
-        {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            z-index: 1;
-            background-color: white;
-        }
-        #background_cycler img.active
-        {
-            z-index: 3;
-        }
-    </style>
 </head>
 <body>
     <!--Hero_Section-->
     <section id="hero_section" class="top_cont_outer">
-        <div id="background_cycler">
-            <img class="active" src="img/slider/1.jpg" alt="" />
-            <img src="img/slider/2.jpg" alt="" />
-        </div>
         <div class="hero_wrapper">
             <div class="container">
                 <div class="hero_section">
@@ -55,16 +26,11 @@
                         <div class="col-md-12">
                             <div class="top_left_cont zoomIn wow animated">
                                 <h2>
-                                    Welcome to
+                                      Welcome to
                                     <br />
                                     <b>AV Quest</b><br />
-                                    <strong>We <i class="fa fa-heart"></i>
-                                        <br />
-                                        Web Devlopement
-                                        <br />
-                                        And
-                                        <br />
-                                        Software Solutions</strong>
+                                     <strong>We <i class="fa fa-heart"></i><br /> Web Devlopement <br /> And <br /> Software Solutions</strong>
+                                    
                                     <br />
                                 </h2>
                                 <div class="underline">
@@ -113,7 +79,7 @@
     <!--Aboutus-->
     <section id="aboutUs">
         <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-            <div class="container" id="aboutus">
+            <div class="container">
                 <h2>
                     Web Developement and Software Solutions</h2>
                 <h6>
@@ -133,7 +99,7 @@
                                             <li data-target="#carousel" data-slide-to="2"></li>
                                             <li data-target="#carousel" data-slide-to="3"></li>
                                             <li data-target="#carousel" data-slide-to="4"></li>
-                                            <li data-target="#carousel" data-slide-to="5"></li>
+                                           <!-- <li data-target="#carousel" data-slide-to="5"></li>-->
                                         </ol>
                                         <!-- Wrapper for slides -->
                                         <div class="carousel-inner">
@@ -172,13 +138,10 @@
                                                         Caption Text</h3>
                                                 </div>-->
                                             </div>
-                                            <div class="item">
+                                          <!--  <div class="item">
                                                 <img src="img/web-hosting.jpg" alt="..." width="100%">
-                                                <!--<div class="carousel-caption">
-                                                    <h3>
-                                                        Caption Text</h3>
-                                                </div>-->
-                                            </div>
+                                                
+                                            </div>-->
                                         </div>
                                         <!-- Controls -->
                                         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -191,12 +154,10 @@
                                 <!-- /.col-md-12 -->
                             </div>
                             <div class="row">
-                                <hr />
+                                
                                 <div class="col-md-12">
-                                    <h3 align="center">
-                                        What We Do Best</h3>
-                                    <h4 align="center">
-                                        Design & Technology At Your Service</h4>
+                                <div class="best">
+                                  </div>  
                                     <p>
                                         AV Quest is established as a Web development agency delivering Web development and
                                         software solutions services of any complexity to clients. AVQuest has a strong team
@@ -215,6 +176,7 @@
                                             clients' competitive advantage and productivity</li>
                                     </ul>
                                     <!-- /.about-us-list -->
+                                    
                                 </div>
                                 <!-- /.col-md-6 -->
                             </div>
@@ -229,7 +191,7 @@
     <!--Aboutus-->
     <!--Service-->
     <section id="service">
-        <div class="container" id="skill">
+        <div class="container">
             <!-- Modal -->
             <div id="webdesign" class="modal fade" role="dialog">
                 <div class="modal-dialog">
@@ -324,6 +286,7 @@
                             <p>
                                 We have technical teams, specialized in different technologies, which can implement
                                 enhancements or corrective maintenance on production systems.</p>
+                           
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -382,6 +345,7 @@
                                 Website is viewable on all Smartphones (iPhone, Android, etc.)</p>
                             <p>
                                 Viewable on all tablets including, iPad, Samsung etc</p>
+                           
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -426,8 +390,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service_icon delay-03s animated wow  zoomIn">
-                            <a href="#webdesign" data-toggle="modal" data-target="#webdesign" class="ser"><span>
-                                <i class="fa fa-cogs"></i></span></a>
+                            <a href="#webdesign" data-toggle="modal" data-target="#webdesign" class="ser"><span><i class="fa fa-cogs">
+                            </i></span></a>
                         </div>
                         <div class="service_block">
                             <h3 class="animated fadeInUp wow">
@@ -442,8 +406,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="service_icon delay-03s animated wow  zoomIn">
-                            <a data-toggle="modal" data-target="#webdev" class="ser"><span><i class="fa fa-code">
-                            </i></span></a>
+                            <a data-toggle="modal" data-target="#webdev" class="ser"><span><i class="fa fa-code"></i></span>
+                            </a>
                         </div>
                         <div class="service_block">
                             <h3 class="animated fadeInUp wow">
@@ -458,8 +422,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="service_icon icon3  delay-03s animated wow zoomIn">
-                            <a data-toggle="modal" data-target="#softsol" class="ser"><span><i class="fa fa-html5">
-                            </i></span></a>
+                            <a data-toggle="modal" data-target="#softsol" class="ser"><span><i class="fa fa-html5"></i></span>
+                            </a>
                         </div>
                         <div class="service_block">
                             <h3 class="animated fadeInUp wow">
@@ -477,8 +441,8 @@
                     <div class="col-md-4">
                         <div class="service_icon delay-03s animated wow  zoomIn animated" style="visibility: visible;
                             animation-name: zoomIn;">
-                            <a data-toggle="modal" data-target="#android" class="ser"><span><i class="fa fa-android">
-                            </i></span></a>
+                            <a data-toggle="modal" data-target="#android" class="ser"><span><i class="fa fa-android"></i></span>
+                            </a>
                         </div>
                         <div class="service_block">
                             <h3 class="animated fadeInUp wow animated" style="visibility: visible; animation-name: fadeInUp;">
@@ -493,8 +457,8 @@
                     <div class="col-md-4">
                         <div class="service_icon icon2  delay-03s animated wow zoomIn animated" style="visibility: visible;
                             animation-name: zoomIn;">
-                            <a data-toggle="modal" data-target="#apple" class="ser"><span><i class="fa fa-apple">
-                            </i></span></a>
+                            <a data-toggle="modal" data-target="#apple" class="ser"><span><i class="fa fa-apple"></i></span>
+                            </a>
                         </div>
                         <div class="service_block">
                             <h3 class="animated fadeInUp wow animated" style="visibility: visible; animation-name: fadeInUp;">
@@ -510,8 +474,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="service_icon icon2  delay-03s animated wow zoomIn">
-                            <a data-toggle="modal" data-target="#webhosting" class="ser"><span><i class="fa fa-sitemap">
-                            </i></span></a>
+                            <a data-toggle="modal" data-target="#webhosting" class="ser"><span><i class="fa fa-sitemap"></i>
+                            </span></a>
                         </div>
                         <div class="service_block">
                             <h3 class="animated fadeInUp wow">
@@ -561,25 +525,22 @@
     <!--Clients-->
     <section class="page_section" id="clients">
         <!--page_section-->
-        <div class="container">
-            <h2>
-                WANT TO BE HERE?
-            </h2>
-            <h6>
-                Give us a call and let's get the ball rolling</h6>
-            <!--page_section-->
-            <div class="client_logos">
-                <!--client_logos-->
-                <div class="container">
-                    <ul class="fadeInRight animated wow">
-                        <li><a href="javascript:void(0)">
-                            <img src="img/client_logo1.png" alt=""></a></li>
-                        <li><a href="javascript:void(0)">
-                            <img src="img/client_logo2.jpg" alt=""></a></li>
-                        <!--<li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
+        <h2>
+            WANT TO BE HERE?
+            <br />
+            GIVE US A CALL AND LET'S GET THE BALL ROLLING</h2>
+        <!--page_section-->
+        <div class="client_logos">
+            <!--client_logos-->
+            <div class="container">
+                <ul class="fadeInRight animated wow">
+                    <li><a href="javascript:void(0)">
+                        <img src="img/client_logo1.png" alt=""></a></li>
+                    <li><a href="javascript:void(0)">
+                        <img src="img/client_logo2.jpg" alt=""></a></li>
+                    <!--<li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
       <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>-->
-                    </ul>
-                </div>
+                </ul>
             </div>
         </div>
     </section>
@@ -589,7 +550,7 @@
         <!--main-section team-start-->
         <div class="container">
             <h2>
-                #TeamAVQuest - Small Team, One Dream</h2>
+                Meet #TeamAVQuest</h2>
             <h6>
                 We are a group of creative professionals with years of experience to help businesses
                 to fulfill the online potential.</h6>
@@ -644,7 +605,7 @@
                                 Veena Patil</h3>
                             <p class="profile-description">
                                 Veena is Senior Programmer and Creative Director at AVQest with extensive experience
-                                and know-how. Not only does Veena hold a Bachelor’s degree in Electronics and Telecommunication,
+                                and know-how. Not only does Veena hold a Bachelor's degree in Electronics and Telecommunication,
                                 she has worked in the IT field for past eight years. The opportunities have provided
                                 Veena with the aptitude to deliver high-quality products to an array of satisfied
                                 clients. She has worked on a wide variety of development projects, ranging from
@@ -669,22 +630,20 @@
                                 <div class="hover-wrap">
                                     <span class="overlay-img"></span><span class="overlay-text-thumb">Lead Designer</span>
                                 </div>
-                                <img alt="Abdul Quader" src="img/profile/profile-03.jpg">
+                                <img alt="Kadar Patel" src="img/profile/Kadar_Patel.jpg">
                             </div>
                             <h3 class="profile-name">
-                                Abdul Quader</h3>
+                                Kadar Patel</h3>
                             <p class="profile-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat
-                                <a href="#">hendrerit dictum</a>. Praesent porta, purus eget sagittis imperdiet,
-                                nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti
-                                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                Kadar is a lead developer and designer of AVQuest. He has over 6 years of experience working on mainly customization of enovia v6. He has a sound experience in Application Exchange Framework (AEF), JPO, ADK, MQL, Enovia Common Component.
+                                 Kadar has a Mechanical Engineering Degree as well as Post Graduate Diploma in Advanced Computing. Kadar chose to focus his attention towards developing solutions using J2EE and implementing PLM solutions using enovia v6 in various domains. </p>
                             <div class="social">
                                 <ul class="social_links">
                                     <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i
                                         class="fa fa-twitter"></i></a></li>
                                     <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i
                                         class="fa fa-facebook"></i></a></li>
-                                    <li class="linkedin animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i
+                                    <li class="linkedin animated bounceIn wow delay-04s"><a href="https://in.linkedin.com/in/kadar-patel-03557356"><i
                                         class="fa fa-linkedin"></i></a></li>
                                     <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i
                                         class="fa fa-google-plus"></i></a></li>
@@ -703,7 +662,7 @@
     <footer class="footer_wrapper" id="contact">
         <div class="container">
             <section class="page_section contact" id="contact">
-                <div class=" container contact_section">
+                <div class="contact_section">
                     <h2>
                         Get In Touch</h2>
                     <h6>
@@ -731,7 +690,7 @@
                                     support@avquest.com</p>
                             </div>
                         </div>
-                        <ul class="social_links">
+                        <ul class="social_links" style="margin-left:80px;">
                             <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i
                                 class="fa fa-twitter"></i></a></li>
                             <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i
@@ -745,12 +704,12 @@
                     <div class="col-lg-8 wow fadeInLeft delay-06s">
                         <div class="form">
                             <input class="input-text" type="text" name="" value="Your Name *" onfocus="if(this.value==this.defaultValue)this.value='';"
-                                onblur="if(this.value=='')this.value=this.defaultValue;">
+                                onblur="if(this.value=='')this.value=this.defaultValue;"/>
                             <input class="input-text" type="text" name="" value="Your E-mail *" onfocus="if(this.value==this.defaultValue)this.value='';"
-                                onblur="if(this.value=='')this.value=this.defaultValue;">
+                                onblur="if(this.value=='')this.value=this.defaultValue;"/>
                             <textarea class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';"
                                 onblur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                            <input class="input-btn" type="submit" value="send message">
+                            <input class="input-btn" type="submit" value="send message"/>
                         </div>
                     </div>
                 </div>
@@ -758,7 +717,7 @@
         </div>
         <div class="container">
             <div class="footer_bottom">
-                <span>Copyright © 2016, by <a href="http://webthemez.com">avquest.com</a>. </span>
+                <span>Copyright © 2016, by <a href="http://webthemez.com">avquest.com</a></span>
             </div>
         </div>
     </footer>
@@ -772,30 +731,12 @@
     <script type="text/javascript" src="js/wow.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
     <!-- Js -->
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- jQuery Core -->
+    <script src="js/main.js"></script>
     <!-- Default JS -->
     <script type="text/javascript" lang="ja">
         $('.carousel').carousel({ interval: 4000 })
-
-
-        $('#background_cycler').hide(); //comment
-
-
-        function cycleImages() {
-            var $active = $('#background_cycler .active');
-            var $next = ($('#background_cycler .active').next().length > 0) ? $('#background_cycler .active').next() : $('#background_cycler img:first');
-            $next.css('z-index', 2); //move the next image up the pile
-            $active.fadeOut(1500, function () {//fade out the top image
-                $active.css('z-index', 1).show().removeClass('active'); //reset the z-index and unhide the image
-                $next.css('z-index', 3).addClass('active'); //make the next image the top one
-            });
-        }
-
-        $(window).load(function () {
-            $('#background_cycler').fadeIn(1500);
-            // run every 7s
-            setInterval('cycleImages()', 7000);
-        })
     </script>
     <!-- End Js -->
 </body>

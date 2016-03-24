@@ -363,7 +363,7 @@ p {
     
     position: relative;
 	
-    /*background: #CE1139;*/
+    background: #5E2818;
 	height:650px;
 }
 
@@ -474,7 +474,7 @@ a.read_more:hover {
 #service {
     padding: 60px 0px;
     /*background: #ff5d4c;*/
-    background:url(../img/stats-bckgrd.jpg);
+    background:url(../img/light_bg3.jpg);
 }
 
 .service_wrapper {
@@ -850,7 +850,7 @@ background-position-y: 70px;
 	background-size: auto 100%;
 }
 .about-us{
-	margin-top: 70px;
+	margin-top: 40px;
 	/*margin-bottom: 50px;*/
 }
 .about-us h3{
@@ -865,13 +865,13 @@ background-position-y: 70px;
 	/*font-size: 0.9375em;*/
 	line-height: 1.625em;
 	padding: 15px 0;
-	color : Black;
+	color : White;
 }
 .about-us .about-us-list{
 	list-style: none;
 	margin-bottom: 20px;
 	padding-left:0px;
-	color : Black;
+	color : White;
 }
 
 .about-us .points{
@@ -1025,7 +1025,7 @@ text-align: center;
 #team
 {
     /*background-color:#ff5d4c;*/
-    background:url(../img/stats-bckgrd.jpg);
+    background:url(../img/light_bg3.jpg);
     
     }
 #team .fa {
@@ -1044,15 +1044,22 @@ transition: all .3s;
 border: 1px solid #ff5d4c;
 
 }
+.best
+{
+    background:transparent url('../img/content_top_bg.png') no-repeat;
+    height : 120px;
+    width : 600px;
+    margin-left : 260px;
+    margin-top :50px;
+}
 #aboutUs {
     padding: 60px 0;
-    background: #F2F5F7;
-    background : url('../img/light_bg.jpg') repeat 0 0 #F2F5F7
+    background : url('../img/light_bg2.jpg') repeat 0 0 #F2F5F7
 }
 #contact{background: #F2F5F7;
-    background : url('../img/light_bg.jpg') repeat 0 0 #F2F5F7}
+    background : url('../img/light_bg2.jpg') repeat 0 0 #F2F5F7}
     #clients{background: #F2F5F7;
-    background : url('../img/light_bg.jpg') repeat 0 0 #F2F5F7}
+    background : url('../img/light_bg2.jpg') repeat 0 0 #F2F5F7}
 /* Contact
 ---------------------------------*/
 .page_section.contact {
@@ -1215,7 +1222,7 @@ border: 1px solid #ff5d4c;
     display: block;
     border-radius: 4px;
     font-size: 15px;
-    color: #aaa;
+    color: wheat;
     margin: 0 0 15px 0;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1241,7 +1248,7 @@ border: 1px solid #ff5d4c;
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
-    background: #ff5d4c;
+    background: #5e2818;
     border-radius: 3px;
     color: #ffffff;
     font-size: 16px;
@@ -2085,7 +2092,7 @@ height: auto;
 
 #aboutus h1, h2, h3, h4, h5, h6
 {
-    color : Black ;
+    color : White ;
 }
 /*
    increase the carousel Height
