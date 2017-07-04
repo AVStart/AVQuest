@@ -196,18 +196,7 @@ pre code {
    Typography
 ================================================== */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-	margin:0 0 20px 0;
-	color:#FFFFFF;
-	font-weight:300;
-	font-family: 'Titillium Web', sans-serif;
-	line-height:1.5em;
-}
+
 
 h1{
 	font-size:48px;
@@ -777,11 +766,14 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .profile-name {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
+	color : #fff;
+	text-align : center;	
 }
 
 .profile-description {
 	margin-bottom: 25px;	
+	color:REBECCAPURPLE;
 }
 
 .image-wrap {
